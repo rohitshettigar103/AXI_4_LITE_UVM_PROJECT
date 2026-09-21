@@ -1,0 +1,37 @@
+<session version="1.1" release="Q-2020.03-SP2-8" timestp="2026-09-21 09:03:10 GMT">
+  <info>
+    <attr name="datetime" value="Mon Sep 21 14:33:23 2026
+"/>
+    <attr name="command" value="urg -dir code_cov.vdb -report code_cov_report"/>
+    <attr name="top_instance" value="uvm_custom_install_recording,uvm_custom_install_verdi_recording,top"/>
+  </info>
+  <hvp>
+    <datadef>
+      <metdef name="Line" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Cond" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Toggle" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="FSM" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Branch" type="ratio" aggregator="average" builtin="1" />
+      <metdef name="Group" type="percent" aggregator="average" builtin="1" />
+    </datadef>
+  </hvp>
+  <old_coverage>
+  <scope type="top" name="top">
+    <metric name="Line" value="133/553" />
+    <metric name="Cond" value="44/100" />
+    <metric name="Toggle" value="679/906" />
+    <metric name="FSM" value="3/10" />
+    <metric name="Branch" value="49/114" />
+    <metric name="Group" value="100%" />
+  </scope>
+  <scope type="instance" name="top">
+  </scope>
+  <scope type="group" name="top">
+    <scope type="group" name="axi_pkg::axi_req_coverage::cg">
+      <metric name="Group" value="100%" />
+    </scope>
+  </scope>
+  <scope type="assert" name="Statistics">
+  </scope>
+  </old_coverage>
+</session>

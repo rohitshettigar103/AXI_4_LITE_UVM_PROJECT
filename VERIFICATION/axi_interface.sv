@@ -27,6 +27,7 @@ interface axi_interface(input logic aclk, input logic aresetn);
 
 
 	clocking drv_clk @(posedge aclk);
+		default input #1ns output #1ns;
 		output awaddr;
 		output awprot;
 		output awvalid;
@@ -46,6 +47,7 @@ interface axi_interface(input logic aclk, input logic aresetn);
 	endclocking
 	
 	clocking mon_clk @(posedge aclk);
+		default input #1ns output #1ns;
 		input awaddr;
 		input awprot;
 		input awvalid;

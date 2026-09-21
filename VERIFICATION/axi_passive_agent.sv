@@ -8,8 +8,8 @@ class axi_passive_agent extends uvm_agent;
 	endfunction
 
 	function void build_phase(uvm_phase phase);
-		uvm_config_db#(uvm_active_passive_enum)::get(this, "", "is_active", is_active);
 		super.build_phase(phase);
+		uvm_config_db#(uvm_active_passive_enum)::get(this, "", "is_active", is_active);
 		out_mon=axi_output_monitor::type_id::create("out_mon",this);
 	endfunction
 endclass

@@ -1,0 +1,116 @@
+Command: /fetools/work_area/frontend/Batch_11/Rohit/AXI_4_LITE_UVM_PROJECT/VERIFICATION/./simv +UVM_TESTNAME=axi_base_test +UVM_VERBOSITY=UVM_LOW -l wr_rd_test.log
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version Q-2020.03-SP2-8_Full64; Runtime version Q-2020.03-SP2-8_Full64;  Sep 17 11:24 2026
+UVM_INFO /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test axi_base_test...
+UVM_INFO axi_input_monitor.sv(136) @ 65000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=24,awprot=4,awvalid=1,awready=1,wdata=0,wstrb=0,wvalid=0,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_input_monitor.sv(136) @ 75000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=24,awprot=4,awvalid=0,awready=0,wdata=893d2845,wstrb=f,wvalid=1,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(109) @ 95000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR WRITE: bresp=0 bvalid=1 bready=1
+UVM_INFO axi_input_monitor.sv(136) @ 115000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=0,awprot=7,awvalid=1,awready=1,wdata=893d2845,wstrb=f,wvalid=0,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_input_monitor.sv(136) @ 125000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=0,awprot=7,awvalid=0,awready=0,wdata=a7810037,wstrb=2,wvalid=1,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(109) @ 145000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR WRITE: bresp=0 bvalid=1 bready=1
+UVM_INFO axi_input_monitor.sv(136) @ 165000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=14,awprot=1,awvalid=1,awready=1,wdata=a7810037,wstrb=2,wvalid=0,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_input_monitor.sv(136) @ 175000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=14,awprot=1,awvalid=0,awready=0,wdata=59414a1,wstrb=a,wvalid=1,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(109) @ 195000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR WRITE: bresp=0 bvalid=1 bready=1
+UVM_INFO axi_input_monitor.sv(136) @ 215000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=10,awprot=4,awvalid=1,awready=1,wdata=59414a1,wstrb=a,wvalid=0,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_input_monitor.sv(136) @ 225000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=10,awprot=4,awvalid=0,awready=0,wdata=6e267e66,wstrb=1,wvalid=1,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(109) @ 245000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR WRITE: bresp=0 bvalid=1 bready=1
+UVM_INFO axi_input_monitor.sv(136) @ 265000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=c,awprot=5,awvalid=1,awready=1,wdata=6e267e66,wstrb=1,wvalid=0,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_input_monitor.sv(136) @ 275000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=c,awprot=5,awvalid=0,awready=0,wdata=8ca68ecf,wstrb=d,wvalid=1,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(109) @ 295000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR WRITE: bresp=0 bvalid=1 bready=1
+UVM_INFO axi_input_monitor.sv(136) @ 315000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=14,awprot=7,awvalid=1,awready=1,wdata=8ca68ecf,wstrb=d,wvalid=0,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_input_monitor.sv(136) @ 325000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=14,awprot=7,awvalid=0,awready=0,wdata=d891597,wstrb=a,wvalid=1,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(109) @ 345000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR WRITE: bresp=0 bvalid=1 bready=1
+UVM_INFO axi_input_monitor.sv(136) @ 365000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=4,awprot=1,awvalid=1,awready=1,wdata=d891597,wstrb=a,wvalid=0,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_input_monitor.sv(136) @ 375000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=4,awprot=1,awvalid=0,awready=0,wdata=549ce7cf,wstrb=8,wvalid=1,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(109) @ 395000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR WRITE: bresp=0 bvalid=1 bready=1
+UVM_INFO axi_input_monitor.sv(136) @ 415000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=10,awprot=1,awvalid=1,awready=1,wdata=549ce7cf,wstrb=8,wvalid=0,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_input_monitor.sv(136) @ 425000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=10,awprot=1,awvalid=0,awready=0,wdata=36cf95c8,wstrb=9,wvalid=1,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(109) @ 445000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR WRITE: bresp=0 bvalid=1 bready=1
+UVM_INFO axi_input_monitor.sv(136) @ 465000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=14,awprot=6,awvalid=1,awready=1,wdata=36cf95c8,wstrb=9,wvalid=0,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_input_monitor.sv(136) @ 475000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=14,awprot=6,awvalid=0,awready=0,wdata=6d860e06,wstrb=1,wvalid=1,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(109) @ 495000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR WRITE: bresp=0 bvalid=1 bready=1
+UVM_INFO axi_input_monitor.sv(136) @ 515000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=4,awprot=1,awvalid=1,awready=1,wdata=6d860e06,wstrb=1,wvalid=0,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_input_monitor.sv(136) @ 525000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR WRITE: WRITE::::::::awaddr=4,awprot=1,awvalid=0,awready=0,wdata=151ac260,wstrb=e,wvalid=1,wready=1,bresp=0,	bvalid=0,bready=0-----------------------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(109) @ 545000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR WRITE: bresp=0 bvalid=1 bready=1
+Received SIGHUP (signal 1), exiting.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 189531295000 ps
+CPU Time:     16.160 seconds;       Data structure size:   0.6Mb
+Thu Sep 17 13:39:33 2026
+---------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(129) @ 565000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR READ: rdata=0x0 rresp=0 rvalid=1 rready=1
+UVM_INFO axi_input_monitor.sv(154) @ 585000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR READ: READ:::::::::araddr=1c,arprot=3,arvalid=1,arready=1,rdata=0,rreasp=0,rvalid=0,rready=0--------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(129) @ 595000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR READ: rdata=0x0 rresp=0 rvalid=1 rready=1
+UVM_INFO axi_input_monitor.sv(154) @ 615000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR READ: READ:::::::::araddr=0,arprot=7,arvalid=1,arready=1,rdata=0,rreasp=0,rvalid=0,rready=0--------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(129) @ 625000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR READ: rdata=0x0 rresp=0 rvalid=1 rready=1
+UVM_INFO axi_input_monitor.sv(154) @ 645000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR READ: READ:::::::::araddr=18,arprot=3,arvalid=1,arready=1,rdata=0,rreasp=0,rvalid=0,rready=0--------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(129) @ 655000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR READ: rdata=0x0 rresp=0 rvalid=1 rready=1
+UVM_INFO axi_input_monitor.sv(154) @ 675000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR READ: READ:::::::::araddr=18,arprot=3,arvalid=1,arready=1,rdata=0,rreasp=0,rvalid=0,rready=0--------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(129) @ 685000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR READ: rdata=0x0 rresp=0 rvalid=1 rready=1
+UVM_INFO axi_input_monitor.sv(154) @ 705000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR READ: READ:::::::::araddr=4,arprot=5,arvalid=1,arready=1,rdata=0,rreasp=0,rvalid=0,rready=0--------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(129) @ 715000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR READ: rdata=0x151ac200 rresp=0 rvalid=1 rready=1
+UVM_INFO axi_input_monitor.sv(154) @ 735000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR READ: READ:::::::::araddr=0,arprot=1,arvalid=1,arready=1,rdata=0,rreasp=0,rvalid=0,rready=0--------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(129) @ 745000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR READ: rdata=0x0 rresp=0 rvalid=1 rready=1
+UVM_INFO axi_input_monitor.sv(154) @ 765000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR READ: READ:::::::::araddr=14,arprot=5,arvalid=1,arready=1,rdata=0,rreasp=0,rvalid=0,rready=0--------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(129) @ 775000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR READ: rdata=0xd001506 rresp=0 rvalid=1 rready=1
+UVM_INFO axi_input_monitor.sv(154) @ 795000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR READ: READ:::::::::araddr=18,arprot=5,arvalid=1,arready=1,rdata=0,rreasp=0,rvalid=0,rready=0--------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(129) @ 805000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR READ: rdata=0x0 rresp=0 rvalid=1 rready=1
+UVM_INFO axi_input_monitor.sv(154) @ 825000: uvm_test_top.env.active_agt.in_mon [INPUT_MON] INPUT MONITOR READ: READ:::::::::araddr=18,arprot=0,arvalid=1,arready=1,rdata=0,rreasp=0,rvalid=0,rready=0--------------------------------------------------------------------------------------------------
+UVM_INFO axi_output_monitor.sv(129) @ 835000: uvm_test_top.env.passive_agt.out_mon [OUTPUT_MON] OUTPUT MONITOR READ: rdata=0x0 rresp=0 rvalid=1 rready=1
+UVM_INFO /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_objection.svh(1276) @ 835000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_report_catcher.svh(705) @ 835000: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_report_server.svh(894) @ 835000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   54
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[INPUT_MON]    30
+[OUTPUT_MON]    20
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+
+$finish called from file "/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time               835000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 835000 ps
+CPU Time:      0.590 seconds;       Data structure size:   0.6Mb
+Thu Sep 17 11:24:32 2026

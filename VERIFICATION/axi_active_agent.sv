@@ -23,7 +23,7 @@ class axi_active_agent extends uvm_agent;
 
 	function void connect_phase(uvm_phase phase);
 		super.connect_phase(phase);
-		if(get_is_active==UVM_ACTIVE());
+		if(get_is_active==UVM_ACTIVE)
 		begin
 			drv.seq_item_port.connect(write_sqr.seq_item_export);
 			drv.rd_seq_item_port.connect(read_sqr.seq_item_export);

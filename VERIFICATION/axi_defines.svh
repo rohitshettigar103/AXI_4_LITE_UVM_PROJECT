@@ -3,6 +3,6 @@
 `define SW (`DW/8)
 `define MEM 16
 
-module top;
-endmodule
+//module t;
+//endmodule
 

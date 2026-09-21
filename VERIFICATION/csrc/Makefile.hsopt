@@ -31,9 +31,9 @@ TMPSPECENV=$(VCSTMPSPECENV)
 CC=$(TMPSPECENV) $(VCS_CC) $(TMPSPECARG)
 
 # C flags for compilation
-CFLAGS=$(STDLIB)-w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -O -I/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/include    
+CFLAGS=$(STDLIB)-w  -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC -O -I/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/include    
 
-CFLAGS_CG=-w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -I/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/include -O  -fno-strict-aliasing -fno-optimize-sibling-calls   
+CFLAGS_CG=-w  -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC -I/fetools/synopsys/installed_tools/vcs/vcs/Q-2020.03-SP2-8/include -O  -fno-strict-aliasing -fno-optimize-sibling-calls   
 
 ASFLAGS=(null)
 LIBS=
